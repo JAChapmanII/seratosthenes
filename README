@@ -1,0 +1,12 @@
+A program to generate .rle files out of a grid of integers, where the cells
+which correspond to prime numbers are alive and all others are dead.
+
+Building:
+	make
+
+Running:
+	./seratosthenes [[map width/height]|[map width] [map height]]
+	By default, it generates a file name primes.rle which is 512x512
+	If you specify one dimension, you get a square that size
+	If you specify two dimension, you get a rectangle that size
+
